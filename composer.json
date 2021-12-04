@@ -22,15 +22,18 @@
         },
         "bundled": false,
         "commands": [
-            "hello-world"
+            "hello-world",
+            "xpresso"
         ]
     },
     "autoload": {
         "psr-4": {
-            "WP_CLI\\HelloWorld\\": "src/"
+            "WP_CLI\\HelloWorld\\": "src/",
+            "WP_CLI\\Xpresso\\": "src/"
         },
         "files": [
-            "hello-world-command.php"
+            "hello-world-command.php",
+            "xpresso-command.php"
         ]
     },
     "minimum-stability": "dev",
